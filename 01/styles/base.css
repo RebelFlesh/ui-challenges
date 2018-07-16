@@ -1,0 +1,9 @@
+*{
+  margin:0;
+}
+header,aside,div,footer{
+  text-align:center;
+  background-color:lightgray;
+  box-sizing:border-box;
+  border:2.5px solid lightslategray;
+}
