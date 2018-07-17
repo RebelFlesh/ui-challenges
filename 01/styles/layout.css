@@ -1,0 +1,60 @@
+header{
+  width:100%;
+  height:75px;
+  clear:both;
+}
+aside{
+  width:100%;
+  height:150px;
+}
+.pair{
+  width:100%;
+  height:125px;
+  clear:both;
+}
+.group{
+  width:50%;
+  height:250px;
+  float:left;
+}
+footer{
+  width:100%;
+  height: 80px;
+  clear:both;
+}
+
+@media only screen and (min-width : 768px){
+  header{
+    height:100px;
+  }
+  aside{
+    width:20%;
+    height:600px;
+    float:left;
+    display:inline-block;
+  }
+  .pair{
+    width:40%;
+    height:200px;
+    float:left;
+    display:inline-block;
+    clear:none;
+  }
+  .group{
+    width:20%;
+    float:left;
+    display:inline-block;
+  }
+  footer{
+    width:80%;
+    height: 150px;
+    float:left;
+    clear:none;
+  }
+}
+@media only screen and (min-width : 960px){
+  body{
+    width:960px;
+    margin:0 auto;
+  }
+}
